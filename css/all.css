@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font-weight: bold;
+	font-family:italic normal 900 80px/94px Roboto;
+
+}
+h1{
+    font: italic normal 900 80px/94px Roboto;
+	margin-bottom: 32px;
+
+}
+h1 span{
+	font:italic normal bold 24px/42px Roboto;
+}
+h2{
+
+    font: italic normal 64px/75px Roboto;
+}
+h3{
+    margin-bottom: 32px;
+    font: italic normal 24px/42px Roboto;
+}
+
+li{
+    font: italic normal bold 24px/42px Roboto;
+}
+
+.wrap{
+	width:1920px;
+	margin: 0 auto;
+}
+.header{
+
+	height:958px;
+	background-image:url(../img/banner.png);
+	background-size: cover;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin-bottom: 64px;
+	color:#fff;
+
+}
+.contain p{
+	font-size: 24px;
+	line-height: 42px;
+
+}
+
+.contain .design{
+	line-height:36px;
+	margin-bottom: 48px;
+}
+.contain ul{
+	display:flex;
+}
+
+.icon{
+	padding-right: 16px;
+
+}
+.icon a:hover{
+    opacity: 0.3;
+  }
+.about{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 56px;
+	width: 412px;
+}
+.about h2{
+	margin-bottom: 40px;
+}
+.about img{
+	margin-bottom: 24px;
+	display: block;
+}
+.about li{
+	margin-bottom: 8px;
+}
+.about .Education{
+
+	padding-bottom: 24px;
+	border-bottom:  1px solid #000000;
+	line-height:36px;
+	margin-bottom: 32px;
+}
+.about .Information{
+  margin-bottom: 32px;
+}
+.Information::before {
+    content: " ";
+    display: inline-block;
+    margin-right: 16px;
+    height: 22px;
+    width: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+}
+
+
+.brand{
+	text-align: center;
+	color: #ffff;
+	padding-top: 64px;
+	padding-bottom: 160px;
+	background: #000000 0% 0% no-repeat padding-box;
+	margin-bottom: 64px;
+}
+.brand h2{
+	margin-bottom: 16px;
+}
+
+.brand p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 68px;
+}
+.brand ul{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.brand li{
+	margin-bottom: 40px;
+	margin-right: 24px;
+}
+.container{
+	width: 1224px;
+	margin: 0 auto;
+}
+.oter-work{
+	text-align: center;
+}
+.oter-work h2{
+	margin-bottom: 24px;
+}
+.oter-work p{
+	font-size: 20px;
+	margin-bottom: 56px;
+	line-height: 30px;
+	margin-top: 16px;
+
+}
+.oter-work ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+
+
+}
+.oter-work li{
+	margin-right: 24px;
+}
+.footer{
+	background: #000000 0% 0% no-repeat padding-box;
+	padding-top: 64px;
+	padding-bottom: 80px;
+	color:#FFFF;
+	text-align: center;
+}
+.footer h2{
+	margin-bottom: 16px;
+}
+.footer li{
+	margin-bottom: 16px;
+	line-height: 36px;
+}
+.footer li a{
+	text-decoration: none;
+	color: #ffff;
+}
+.footer li a:hover{
+	color:red;
+	padding: 5px;
+}
